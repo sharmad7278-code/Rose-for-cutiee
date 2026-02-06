@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(#ff9a9e, #fad0c4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.card {
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+button {
+  padding: 12px;
+  width: 100%;
+  background: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
