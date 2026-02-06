@@ -23,3 +23,15 @@ button {
   border: none;
   border-radius: 10px;
 }
+.rose {
+  position: fixed;
+  top: -10%;
+  font-size: 24px;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh);
+  }
+}
