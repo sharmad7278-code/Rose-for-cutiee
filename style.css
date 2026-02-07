@@ -35,3 +35,9 @@ button {
     transform: translateY(110vh);
   }
 }
+h1 {
+  font-size: 2rem;
+  background: linear-gradient(to right, #ff4b5c, #ff758c);
+  -webkit-background-clip: text;
+  color: transparent;
+}
