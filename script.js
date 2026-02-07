@@ -14,3 +14,16 @@ setInterval(() => {
     rose.remove();
   }, 6000);
 }, 300);
+let step = 0;
+
+function showMsg() {
+  if (step === 0) {
+    msg.innerText = "This rose is just the beginning 🌹";
+    step++;
+  } else if (step === 1) {
+    msg.innerText = "You make everything more beautiful 💖";
+    step++;
+  } else {
+    msg.innerText = "Happy Rose Day, Cutiee 🌹❤️";
+  }
+}
