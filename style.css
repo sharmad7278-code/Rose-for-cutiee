@@ -44,3 +44,13 @@ h1 {
   -webkit-background-clip: text;
   color: transparent;
 }
+ .heart {
+  font-size: 40px;
+  animation: beat 1s infinite;
+  margin: 15px 0;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
