@@ -1,4 +1,9 @@
-function showMsg() {
+function showLove() {
+  document.getElementById("msg").innerText =
+    "I knew it 😌💗";
+
+  document.getElementById("letter").style.display = "block";
+}function showMsg() {
   document.getElementById("msg").innerText =
     "You are the most beautiful rose 🌹❤️";
 }
